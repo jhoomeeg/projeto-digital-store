@@ -1,0 +1,10 @@
+export const products = [
+  { id: 1, name: "K-Swiss V8 - Masculino", image: "/product-thumb-1.jpeg", price: 200, priceDiscount: 149.9, category: "Tênis", brand: "K-Swiss", gender: "Masculino", reference: "38416711-1", sizes: ["39", "40", "41", "42", "43"], colors: ["#1F1F1F", "#C92071", "#B5B6F2"] },
+  { id: 2, name: "Nike Air Force - Masculino", image: "/product-thumb-2.jpeg", price: 49.9, category: "Tênis", brand: "Nike", gender: "Masculino", reference: "38416711-2", sizes: ["39", "40", "41", "42"], colors: ["#1F1F1F", "#FFFFFF"] },
+  { id: 3, name: "Nike Revolution - Feminino", image: "/product-thumb-3.jpeg", price: 180, priceDiscount: 129.9, category: "Tênis", brand: "Nike", gender: "Feminino", reference: "38416711-3", sizes: ["35", "36", "37", "38"], colors: ["#C92071", "#B5B6F2"] },
+  { id: 4, name: "Adidas Run Falcon", image: "/product-thumb-4.jpeg", price: 220, priceDiscount: 189.9, category: "Tênis", brand: "Adidas", gender: "Unissex", reference: "38416711-4", sizes: ["38", "39", "40", "41", "42"], colors: ["#1F1F1F", "#52CA76"] },
+  { id: 5, name: "Puma Palermo", image: "/product-thumb-5.jpeg", price: 160, category: "Tênis", brand: "Puma", gender: "Masculino", reference: "38416711-5", sizes: ["39", "40", "41", "42"], colors: ["#1F1F1F", "#F6AA1C"] },
+  { id: 6, name: "K-Swiss Runner", image: "/product-thumb-1.jpeg", price: 210, priceDiscount: 179.9, category: "Tênis", brand: "K-Swiss", gender: "Unissex", reference: "38416711-6", sizes: ["38", "39", "40", "41"], colors: ["#FFFFFF", "#1F1F1F"] },
+  { id: 7, name: "Nike Court Vision", image: "/product-thumb-2.jpeg", price: 290, priceDiscount: 249.9, category: "Tênis", brand: "Nike", gender: "Feminino", reference: "38416711-7", sizes: ["35", "36", "37", "38", "39"], colors: ["#FFFFFF", "#C92071"] },
+  { id: 8, name: "Adidas Duramo", image: "/product-thumb-3.jpeg", price: 240, category: "Tênis", brand: "Adidas", gender: "Masculino", reference: "38416711-8", sizes: ["39", "40", "41", "42", "43"], colors: ["#1F1F1F", "#52CA76"] },
+];

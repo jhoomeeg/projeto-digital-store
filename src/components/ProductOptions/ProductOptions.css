@@ -1,0 +1,5 @@
+.product-options { display: flex; flex-wrap: wrap; gap: 10px; }
+.product-option { border: 1px solid var(--light-gray-2); background: var(--white); color: var(--dark-gray-2); font-size: 24px; cursor: pointer; }
+.product-option-square { width: 46px; height: 46px; }
+.product-option-circle { width: 31px; height: 31px; border-radius: 50%; }
+.product-option.selected { border: 2px solid var(--primary); }

@@ -1,0 +1,5 @@
+.product-view-page { max-width: 1200px; padding-top: 48px; }
+.product-view-details { display: grid; grid-template-columns: minmax(0, 700px) minmax(320px, 450px); gap: 40px; margin-bottom: 80px; }
+.product-option-group { margin-top: 20px; }
+.product-option-group h3 { margin: 0 0 10px; color: var(--dark-gray-2); font-size: 16px; }
+@media (max-width: 1050px) { .product-view-details { grid-template-columns: 1fr; } .buy-box { max-width: none; } }

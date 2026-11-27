@@ -1,0 +1,136 @@
+.featured-collections {
+  padding: 40px 0;
+}
+
+.featured-collections h2 {
+  font-size: 24px;
+  margin: 0 0 20px;
+  color: var(--dark-gray);
+}
+
+.featured-collections-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.collection-card {
+  position: relative;
+  min-height: 250px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.collection-card-content {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  z-index: 1;
+}
+
+.collection-card h3 {
+  font-size: 24px;
+  color: var(--dark-gray);
+  margin: 0 0 16px;
+}
+
+.collection-card-content a {
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+  background-color: var(--white);
+  color: var(--primary);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.collection-card-content a:hover {
+  background-color: var(--tertiary);
+  color: white;
+}
+
+@media (max-width: 900px) {
+  .featured-collections-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .featured-collections-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* SEGUNDA PARTE: CATEGORIAS */
+
+.collection-container {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.collection-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--dark-gray);
+  margin-bottom: 24px;
+}
+
+.featured-categories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.category-button {
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--white);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--dark-gray-2);
+  font-size: 32px;
+
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category-button:hover {
+  color: var(--primary);
+  transform: translateY(-3px);
+}
+
+.category-button.active {
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 600px) {
+  .featured-categories {
+    gap: 16px;
+  }
+
+  .category-button {
+    width: 64px;
+    height: 64px;
+    font-size: 26px;
+  }
+}
+

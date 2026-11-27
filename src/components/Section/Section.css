@@ -1,0 +1,7 @@
+.section { width: 100%; }
+.section-header { display: flex; align-items: center; margin-bottom: 20px; }
+.section-header h2 { margin: 0; color: var(--dark-gray-2); font-size: 24px; }
+.section-header-left { justify-content: space-between; }
+.section-header-center { justify-content: center; }
+.section-header-center h2 { width: 100%; text-align: center; }
+.section-link { color: var(--primary); font-size: 18px; text-decoration: none; }
