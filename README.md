@@ -169,4 +169,4 @@ Exemplo de objeto:
 
 ## Observação sobre integração com backend
 
-Este projeto está preparado para substituir os dados locais por respostas de uma API. Os componentes recebem os dados por propriedades, enquanto as páginas podem passar a buscar os produtos por meio de `fetch` ou de uma biblioteca HTTP.
+Este projeto está preparado para substituir os dados locais por respostas de uma API(o projeto backend ). Os componentes recebem os dados por propriedades, enquanto as páginas podem passar a buscar os produtos por meio de `fetch` ou de uma biblioteca HTTP.
